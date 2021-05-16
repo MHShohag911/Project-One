@@ -1,0 +1,325 @@
+/*===============================
+Common Css Start
+================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    background: #DBDBDB;
+    height: 1px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/*===============================
+Header Part Css Start
+================================*/
+
+.logo img {
+    max-width: 310px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+/*===============================
+Main Menu Css Start
+================================*/
+#main_menu {
+    width: 100%;
+    clear: both;
+}
+
+.inner_menu {
+    background: #ffffff;
+    position: relative;
+    min-height: 30px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.inner_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+}
+
+.inner_menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+#main_menu ul li a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main_menu ul li:hover a {
+    color: #E2B34F;
+}
+
+/*===============================
+Body Part Css Start
+================================*/
+.body_img{
+    width: 100%;
+    height: auto;
+}
+
+.body_img img {
+    width: 100%;
+    min-height: 250px;
+}
+
+.body_background {
+    background: url(../img/body-image08.jpg);
+    background-size: 100% 100%;
+    height: 593px;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.body_back_left {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    background: transparent;
+    position: relative;
+}
+
+.body_back_right {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+
+.text_div {
+    width: 100%;
+	display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text_div h2 {
+    color: white;
+    width: 50%;
+    margin-left: -200px;
+    margin: auto;
+    text-align: left;
+}
+
+.text_div p {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.text_div02 {
+    display: none;
+}
+
+/*===================================
+Card Section Css Part
+====================================*/
+.card_main {
+}
+
+.card_mid {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_one {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.card_one img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.card_one h3 {
+    font-size: 14px;
+}
+
+.card_one p {
+    font-size: 12px;
+}
+
+
+/*===================================
+Footer Section Css Part
+====================================*/
+.footer_mmain {
+    text-align: center;
+}
+
+.footer_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_one {
+    max-width: 250px;
+    width: 100%;
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer_one h2 {
+    color: #E2B34F;
+    margin-bottom: 20px;
+}
+
+.footer_one p {
+    line-height: 25px;
+    color: gray;
+}
+
+.footer_one_main {
+	text-align: left;
+}
+
+.footer_one_mid {
+	display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer_one .footer_one_mid a {
+    display: block;
+    line-height: 40px;
+    color: gray;
+}
+
+.footer_one .footer_one_mid a:hover {
+    color: #E2B34F;
+}
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+.social_link_div ul {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social_link_div ul li {
+    display: inline-block;
+}
+
+.social_link_div ul li a {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .body_background {
+        background: url(../img/body-image08-02.jpg)!important;
+        background-size: 100% 100%!important;
+        height: 100%!important;
+        width: 100%;
+        margin-bottom: 0px;
+        position: relative;
+    }
+    
+    .text_div02 {
+        position: absolute;
+	    left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .text_area {
+	    display: block;
+    }
+    
+    .text_div01 {
+        display: none;
+    }
+    
+    .text_div02 {
+	    display: block;
+    }
+    
+    .text_div02 h2 {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .text_div02 p {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .contact_form {
+        margin-bottom: 40px;
+    }
+    
+    .footer_one {
+        text-align: left;
+    }
+} 
+
+
+

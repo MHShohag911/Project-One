@@ -1,0 +1,355 @@
+/*===============================
+Common Css Start
+================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    background: #DBDBDB;
+    height: 1px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/*===============================
+Header Part Css Start
+================================*/
+
+.logo img {
+    max-width: 310px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+/*===============================
+Main Menu Css Start
+================================*/
+#main_menu {
+    width: 100%;
+    clear: both;
+}
+
+.inner_menu {
+    background: #ffffff;
+    position: relative;
+    min-height: 30px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.inner_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+}
+
+.inner_menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+#main_menu ul li a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main_menu ul li:hover a {
+    color: #E2B34F;
+}
+
+/*===============================
+Body Part Css Start
+================================*/
+.body_img{
+    width: 100%;
+    height: auto;
+}
+
+.body_img img {
+    width: 100%;
+    min-height: 250px;
+}
+
+.body_background {
+    background: url(../img/body-image07.jpg);
+    background-size: 100% 100%;
+    height: 386px;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.body_back_left {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+
+.body_back_right {
+    display: inline-block;
+    width: 49%;
+    height: 386px;
+    color: white;
+    position: relative;
+}
+
+.text_div {
+    width: 100%;
+	display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.body_back_right h1 {
+	text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.body_back_right p {
+    width: 80%;
+    line-height: 30px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.text_area {
+    width: 100%;
+    background: url(../img/body-image07-03.jpg);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: none;
+    text-align: center;
+    color: white;
+}
+
+.text_area h1 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.text_area p {
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+/*===================================
+Contact Form Section Css Part
+====================================*/
+.contact_form {
+    width: 90%;
+    background-color: #262729;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.contact_mid {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #464749;
+    margin: 10px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact_mid p {
+	color: white;
+    font-size: 22px;
+    padding: 40px 20px;
+    margin-top: 30px
+}
+
+.contact_mid input {
+    width: 95%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    padding: 15px 20px;
+    background: #333436;
+    border: 1px solid #434446;
+    font-size: 16px;
+    outline: none;
+    color:;
+}
+
+.contact_mid input::placeholder {
+    color:  #97989C;
+}
+
+.contact_mid textarea {
+    width: 95%;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    padding: 15px 20px;
+    background: #333436;
+    border: 1px solid #434446;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact_mid textarea::placeholder {
+    color:  #97989C;
+}
+
+.contact_mid button{
+    background: #5CB55A;
+    padding: 13px 20px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.fa-angle-down {
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/*===================================
+Footer Section Css Part
+====================================*/
+.footer_mmain {
+    text-align: center;
+}
+
+.footer_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_one {
+    max-width: 250px;
+    width: 100%;
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer_one h2 {
+    color: #E2B34F;
+    margin-bottom: 20px;
+}
+
+.footer_one p {
+    line-height: 25px;
+    color: gray;
+}
+
+.footer_one_main {
+	text-align: left;
+}
+
+.footer_one_mid {
+	display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer_one .footer_one_mid a {
+    display: block;
+    line-height: 40px;
+    color: gray;
+}
+
+.footer_one .footer_one_mid a:hover {
+    color: #E2B34F;
+}
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+.social_link_div ul {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social_link_div ul li {
+    display: inline-block;
+}
+
+.social_link_div ul li a {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .body_background {
+        background: url(../img/body-image07-02.jpg)!important;
+        background-size: 100% 100%;
+        background-position: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    
+    .text_area {
+	    display: block;
+    }
+    
+    .text_div {
+	    display: none;
+    }
+    
+    .contact_form {
+        margin-bottom: 40px;
+    }
+    
+    .footer_one {
+        text-align: left;
+    }
+} 
+
+
+

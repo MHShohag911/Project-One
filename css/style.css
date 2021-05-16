@@ -1,0 +1,443 @@
+/*===============================
+Common Css Start
+================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul,ol {
+    list-style: 
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    background: #DBDBDB;
+    height: 1px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/*===============================
+Header Part Css Start
+================================*/
+
+.logo img {
+    max-width: 310px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+/*===============================
+Main Menu Css Start
+================================*/
+#main_menu {
+    width: 100%;
+    clear: both;
+}
+
+.inner_menu {
+    background: #ffffff;
+    position: relative;
+    min-height: 30px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.inner_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+}
+
+.inner_menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+#main_menu ul li a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main_menu ul li:hover a {
+    color: #E2B34F;
+}
+
+/*===============================
+Body Part Css Start
+================================*/
+.body_img{
+    width: 100%;
+    height: auto;
+}
+
+.body_img img {
+    width: 100%;
+    min-height: 250px;
+}
+
+/*===============================
+Collection Part Css Start
+================================*/
+.collections {
+	text-align: center;
+    line-height: 40px;
+}
+
+.collections h1 {
+    margin-top: 60px;
+}
+
+.collections p {
+    margin-bottom: 30px;
+    color: #E2B34F;
+}
+
+.collections_img {
+    text-align: center;
+}
+
+.collection_div {
+    height: 292px;
+    max-width: 520px;
+    width: 100%;
+    height: 100ppx;
+    margin: auto;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+}
+
+.collection_div h1 {
+    color: #E2B34F;
+    font-weight: normal;
+    margin: 30px 30px 20px 30px;
+}
+
+.collection_div p {
+    color: #fff;
+    font-weight: normal;
+    margin: 0px 0px 20px 30px;
+    width: 50%;
+    line-height: 25px;
+}
+
+.collection_div h2 {
+    color: #E2B34F;
+    font-weight: normal;
+    margin: 0px 0px 0px 30px;
+}
+
+.collections_img .collection_img01 {
+    background: url(../img/product-image02.jpg);
+    background-size: 100% 100%;
+}
+
+.collections_img .collection_img02 {
+    background: url(../img/product-image01.jpg);
+    background-size: 100% 100%;
+}
+
+.collections_img img {
+    text-align: center;
+    display: inline-block;
+    
+    margin: 0px 5px;
+    margin-bottom: 40px;
+}
+
+
+/*===============================
+Body Text Part Css Start
+================================*/
+.body_text {
+    background: url(../img/body-image02.jpg);
+    background-size: 100% 100%;
+    height: 520px;
+    
+}
+
+.body_text_section {
+    max-width: 550px;
+    padding: 30px;
+}
+
+.body_text_section h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 30px 0px;
+    color: #8C8381;
+}
+
+.body_text_section p {
+    color: #8C8381;
+    line-height: 30px;
+}
+
+.body_text_section h2 {
+    color: #8C8381;
+    line-height: 30px;
+    margin-top: 30px;
+    color: #E2B34F;
+}
+
+/*===================================
+Body Text Part Two End
+====================================*/
+.body_text_two {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.body_text_mid {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.body_text_two h1 {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.body_text_two h1 p {
+    float: left;
+}
+
+.body_text_two h1 .big {
+    font-size: 40px;
+    color: #8C8381;
+}
+
+.body_text_two h1 .small {
+    margin-top: 16px;
+    color: #E2B34F;
+}
+
+.body_text_two .dummy_text {
+    margin-top: 16px;
+    color: #000000;
+    line-height: 25px;
+}
+
+.body_text_two a {
+    margin-top: 30px;
+    display: block;
+    color: #A18242;
+    margin-bottom: 30px;
+}
+
+/*===================================
+Card Section Css Part
+====================================*/
+.card_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_main .card_mid .card {
+    height: 330px;
+    width: 330px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.card_main .card_mid .card img {
+    height: 100%;
+    width: 100%;
+}
+
+.button_div {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.card_main .button_div a {
+    padding: 10px 30px;
+    background: #A18242;
+    color: #fff;
+}
+
+.card_main .button_div:hover a {
+    background: #fff;
+    color: #E2B34F;
+}
+
+/*===================================
+Client Section Css Part
+====================================*/
+.client_section {
+	text-align: center;
+}
+
+.client_section p {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: gray;
+}
+
+.company_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client_section .logo_one {
+    display:inline-block;
+    margin: 10px;
+}
+
+.client_section_two p {
+    margin-bottom: 20px;
+}
+
+/*===================================
+Footer Section Css Part
+====================================*/
+.footer_mmain {
+    text-align: center;
+}
+
+.footer_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_one {
+    max-width: 250px;
+    width: 100%;
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer_one h2 {
+    color: #E2B34F;
+    margin-bottom: 20px;
+}
+
+.footer_one p {
+    line-height: 25px;
+    color: gray;
+}
+
+.footer_one_main {
+	text-align: left;
+}
+
+.footer_one_mid {
+	display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer_one .footer_one_mid a {
+    display: block;
+    line-height: 40px;
+    color: gray;
+}
+
+.footer_one .footer_one_mid a:hover {
+    color: #E2B34F;
+}
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+.social_link_div ul {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social_link_div ul li {
+    display: inline-block;
+}
+
+.social_link_div ul li a {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .collection_div {
+        margin: 20px 0px;
+    }
+    
+    .body_text {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: auto;
+    }
+    
+    .dummy_text {
+        padding: 0px 20px;
+    }
+    
+    .footer_one {
+        text-align: left;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

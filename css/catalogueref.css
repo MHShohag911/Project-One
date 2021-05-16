@@ -1,0 +1,321 @@
+/*===============================
+Common Css Start
+================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul,ol {
+    list-style: 
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    background: #DBDBDB;
+    height: 1px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/*===============================
+Header Part Css Start
+================================*/
+
+.logo img {
+    max-width: 310px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+/*===============================
+Main Menu Css Start
+================================*/
+#main_menu {
+    width: 100%;
+    clear: both;
+}
+
+.inner_menu {
+    background: #ffffff;
+    position: relative;
+    min-height: 30px;
+    padding: 15px 0px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.inner_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-align: center;
+}
+
+.inner_menu ul li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+
+#main_menu ul li a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main_menu ul li:hover a {
+    color: #E2B34F;
+}
+
+/*===============================
+Body Part Css Start
+================================*/
+.body_img{
+    width: 100%;
+    height: auto;
+}
+
+.body_img01 {
+    background: url(../img/body-image05.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+.body_img01 h1 {
+    margin-bottom: 20px;
+    color: #E2B34F;
+    font-weight: normal;
+}
+
+.body_img01 p {
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+
+/*===================================
+Magazine Section Css Part
+====================================*/
+.text_area {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+
+.text_area h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.text_area p {
+    width: 70%;
+    margin: auto;
+}
+
+.magazine {
+    width: 100%;
+    background: #5588CA;
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.magazine img {
+    display: inline-block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    margin: 100px 0px;
+    box-shadow: 0px 10px 30px 0px #316192;
+}
+
+/*=========================================
+Bespoke Start Here
+==========================================*/
+.bespoke_back {
+    background: url(../img/body-image06.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bespoke_text {
+	width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+    overflow: hidden;
+}
+
+.bespoke_text h2 {
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bespoke_text h3 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    color: #9E7D4A;
+}
+
+.bespoke_text p {
+    margin: auto;
+    line-height: 30px;
+    margin: 30px 0px;
+    padding: 0px 100px;
+}
+
+.pro_text {
+	text-align: center;
+    line-height: 30px;
+}
+
+.pro_text h2 {
+	font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.pro_text p {
+    padding: 0px 20px;
+}
+
+.pro_text .button {
+	margin-top: 100px;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.pro_text .button a{
+    display: block;
+    border: none;
+    padding: 10px 50px;
+    font-size: 14px;
+    color: white;
+    background: #A08141;
+    font-weight: bold;
+}
+
+.fa-chevron-right {
+    margin-left: 10px;
+    background: #866A3A;
+    padding: 5px 7px;
+    border-radius: 50%;
+    color: white;
+}
+
+/*===================================
+Footer Section Css Part
+====================================*/
+.footer_mmain {
+    text-align: center;
+}
+
+.footer_mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_one {
+    max-width: 250px;
+    width: 100%;
+    margin: 20px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer_one h2 {
+    color: #E2B34F;
+    margin-bottom: 20px;
+}
+
+.footer_one p {
+    line-height: 25px;
+    color: gray;
+}
+
+.footer_one_main {
+	text-align: left;
+}
+
+.footer_one_mid {
+	display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.footer_one .footer_one_mid a {
+    display: block;
+    line-height: 40px;
+    color: gray;
+}
+
+.footer_one .footer_one_mid a:hover {
+    color: #E2B34F;
+}
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+.social_link_div ul {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social_link_div ul li {
+    display: inline-block;
+}
+
+.social_link_div ul li a {
+    
+}
+
+/*=========================================
+Media Query Start Here
+==========================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .magazine img {
+        margin: 50px 0px;
+    }
+    
+    .bespoke_text p {
+    padding: 0px 20px;
+    }
+    
+    .pro_text .button {
+	margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .footer_one {
+        text-align: left;
+    }
+} 
+
